@@ -23,7 +23,7 @@ function init() {
         .getProvider("traffic#actual")
         .state.set("infoLayerShown", true);
 
-    var data = ymaps.geoXml.load("geoObjects.kml");
+    var data = ymaps.geoXml.load("https://raw.githubusercontent.com/Youshida-sama/mapjs/refs/heads/main/geoObjects.kml?token=GHSAT0AAAAAADHRK2TF3K7VEEJXEYQBZCSI2FMV25Q");
 
     // Обработка полученного асинхронно ответа.
     data.then(function(res) {
