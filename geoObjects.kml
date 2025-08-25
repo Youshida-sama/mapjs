@@ -3,11 +3,11 @@
   <Document>
     <Style id="defaultPolyStyle">
       <LineStyle>
-        <color>ff44e49c</color>
+        <color>ffff0800</color>
         <width>3</width>
       </LineStyle>
       <PolyStyle>
-        <color>66f5efeb</color>
+        <color>80fbe4d5</color>
         <outline>1</outline>
       </PolyStyle>
     </Style>
