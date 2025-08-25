@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="defaultPolyStyle">
+      <LineStyle>
+        <color>ffff8833</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99ff8833</color>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+
+    <Style id="defaultLineStyle">
+      <LineStyle>
+        <color>ffff8833</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="defaultPointStyle">
+      <IconStyle>
+        <color>ffff8833</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Test</name>
+      <description/>
+      <Placemark>
+        <name>Метка 1</name>
+        <description/>
+        <Style>
+          <IconStyle>
+            <Icon>
+              <href>http://api-maps.yandex.ru/i/0.4/micro/pmyws.png</href>
+            </Icon>
+            <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
+          </IconStyle>
+        </Style>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>38.971853256225586,44.99529272759856,0 38.96601676940919,44.99177222548706,0 38.95691871643067,44.99565690512879,0 38.94850730895997,45.01568310514308,0 38.952798843383796,45.02429828526234,0 38.959321975708015,45.02963661952667,0 38.98438453674317,45.0246622784135,0 38.988676071167,45.00633841637267,0 38.971853256225586,44.99529272759856,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
